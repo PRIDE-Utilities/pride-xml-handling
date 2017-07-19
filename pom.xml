@@ -16,18 +16,11 @@
     <description>This POM file defines dependencies for using a logging subsystem in PRIDE</description>
     <url />
 
-    <licenses>
-        <license>
-            <name>Apache 2</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-            <distribution>repo</distribution>
-            <comments>A business-friendly OSS license</comments>
-        </license>
-    </licenses>
-
     <!-- DEVELOPERS: are the same as in the parent POM -->
     <!-- CONTRIBUTORS: are the same as in the parent POM -->
-    <!-- NO PROPERTIES have been defined for this POM -->
+    <properties>
+        <psidev.psi.tools-xxindex.version>0.21</psidev.psi.tools-xxindex.version>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -38,7 +31,7 @@
         <dependency>
             <groupId>psidev.psi.tools</groupId>
             <artifactId>xxindex</artifactId>
-            <version>0.21</version>
+            <version>${psidev.psi.tools-xxindex.version}</version>
         </dependency>
         <!-- needed for EscapingXMLStreamWriter to cope with ASCII control characters that are not properly escaped in JAXB -->
         <dependency>
