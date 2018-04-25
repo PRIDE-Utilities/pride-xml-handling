@@ -19,7 +19,7 @@
     <!-- DEVELOPERS: are the same as in the parent POM -->
     <!-- CONTRIBUTORS: are the same as in the parent POM -->
     <properties>
-        <psidev.psi.tools-xxindex.version>0.21</psidev.psi.tools-xxindex.version>
+        <psidev.psi.tools-xxindex.version>0.22</psidev.psi.tools-xxindex.version>
     </properties>
 
     <dependencies>
